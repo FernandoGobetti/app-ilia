@@ -1,0 +1,47 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Pokemon list!{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <h1>Pokemon list! ✅</h1>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Name</th>
+                <th scope="col">Id</th>
+                <th scope="col">Types</th>
+                <th scope="col">#</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for pokemon in pokemons %}
+                <tr>
+                    <th scope="row">
+                        <img width="20%" src="{{ pokemon.images.small }}"/></th>
+                    <td>{{ pokemon.name }}</td>
+                    <td>{{ pokemon.id }}</td>
+                    <td>
+                        {% for type in pokemon.types %}
+                            {{ type }}
+                        {% endfor %}
+                    </td>
+                    <td>
+                        <a class="btn btn-dark" href="{{ path('app_pokemon_show', {id: pokemon.id}) }}">Details</a>
+                    </td>
+                </tr>
+            {% endfor %}
+
+            </tbody>
+        </table>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+{% endblock %}
