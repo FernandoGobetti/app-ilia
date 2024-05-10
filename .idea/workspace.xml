@@ -7,6 +7,7 @@
     <list default="true" id="3f3b77b1-d537-4eb3-90dd-b076ad75580d" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/templates/pokemon/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/web_profiler.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/PokemonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PokemonController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/PokemonService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/PokemonService.php" afterDir="false" />
     </list>
@@ -192,7 +193,7 @@
       <workItem from="1715045495047" duration="635000" />
       <workItem from="1715080986977" duration="24000" />
       <workItem from="1715119482064" duration="9524000" />
-      <workItem from="1715292191523" duration="8565000" />
+      <workItem from="1715292191523" duration="14799000" />
     </task>
     <servers />
   </component>

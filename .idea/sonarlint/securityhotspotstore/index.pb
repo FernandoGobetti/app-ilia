@@ -13,3 +13,7 @@ D
 config/services.yaml,8\7\87042d1f46b57381244d70e7a42feeb7710727dc
 Q
 !config/packages/web_profiler.yaml,b\0\b0926246bcd5304c762fba15710d63fa9dca8de4
+=
+composer.json,3\9\3957b91a0d8450cea0115cfd5af69eac90d75897
+E
+tests/PokemonTest.php,9\1\9111ad2ba63c26452d3db037e4ed98cca38303f6
