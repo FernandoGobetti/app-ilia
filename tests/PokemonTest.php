@@ -20,6 +20,8 @@ class PokemonTest extends WebTestCase
         // Validate a successful response and some content
         $this->assertResponseIsSuccessful();
         $this->assertResponseStatusCodeSame(200);
+        $this->assertAnySelectorTextContains('td', 'hgss4-1');
+        $this->assertPageTitleSame('Pokemon list!');
     }
 
     public function testShowPokemon(): void
@@ -29,8 +31,10 @@ class PokemonTest extends WebTestCase
         // Request a specific page
         $crawler = $client->request('GET', '/pokemon/show/hgss4-1');
 
-        // Validate a successful response and some content
+       // Validate a successful response and some content
         $this->assertResponseIsSuccessful();
         $this->assertResponseStatusCodeSame(200);
+        $this->assertAnySelectorTextContains('td', 'hgss4-1');
+        $this->assertPageTitleSame('Pokemon Aggron');
     }
 }

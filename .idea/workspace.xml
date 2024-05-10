@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f3b77b1-d537-4eb3-90dd-b076ad75580d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/pokemon/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/mysql/dbdata/binlog.000002" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/mysql/dbdata/binlog.000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/mysql/dbdata/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/mysql/dbdata/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/mysql/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/mysql/dbdata/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/mysql/dbdata/ibtmp1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/web_profiler.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/web_profiler.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PokemonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PokemonController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/PokemonService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/PokemonService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/PokemonTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PokemonTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\PHP\8.3.3\php.exe">
     <include_path>
@@ -165,21 +170,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/mukeka/Projetos/Laravel/app-buzzvel",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/mukeka/Projetos/Laravel/app-buzzvel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -193,7 +198,8 @@
       <workItem from="1715045495047" duration="635000" />
       <workItem from="1715080986977" duration="24000" />
       <workItem from="1715119482064" duration="9524000" />
-      <workItem from="1715292191523" duration="14799000" />
+      <workItem from="1715292191523" duration="15497000" />
+      <workItem from="1715377947712" duration="1900000" />
     </task>
     <servers />
   </component>

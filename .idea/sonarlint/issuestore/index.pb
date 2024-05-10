@@ -17,3 +17,7 @@ Q
 composer.json,3\9\3957b91a0d8450cea0115cfd5af69eac90d75897
 E
 tests/PokemonTest.php,9\1\9111ad2ba63c26452d3db037e4ed98cca38303f6
+9
+	readme.md,2\7\275d783e298228506068436512433d343feb52aa
+C
+tests/bootstrap.php,3\2\326979242ce2c18a934ad123c59abf3a9753ba46
