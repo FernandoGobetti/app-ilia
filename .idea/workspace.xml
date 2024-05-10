@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f3b77b1-d537-4eb3-90dd-b076ad75580d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.docker/mysql/dbdata/binlog.000002" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/mysql/dbdata/binlog.000002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.docker/mysql/dbdata/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/mysql/dbdata/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.docker/mysql/dbdata/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/mysql/dbdata/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.docker/mysql/dbdata/ibtmp1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/PokemonTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PokemonTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -199,7 +199,7 @@
       <workItem from="1715080986977" duration="24000" />
       <workItem from="1715119482064" duration="9524000" />
       <workItem from="1715292191523" duration="15497000" />
-      <workItem from="1715377947712" duration="1900000" />
+      <workItem from="1715377947712" duration="2731000" />
     </task>
     <servers />
   </component>
