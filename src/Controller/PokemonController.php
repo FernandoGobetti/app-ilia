@@ -29,14 +29,12 @@ class PokemonController extends AbstractController
     }
 
     #[Route('/pokemon/show/{id}', name: 'app_pokemon_show', methods: ['GET'])]
-    public function show(Request $request): Response
+    public function show(Request $request, $id): Response
     {
-        dd($request);
-        $allPokemon = $this->service->getAll($request->query->get('page'));
+        $onePokemon = $this->service->findOne($id);
 
-        return $this->render('pokemon/index.html.twig', [
-            'pokemons' => $allPokemon["data"],
-            'page' => $allPokemon['page'],
+        return $this->render('pokemon/show.html.twig', [
+            'pokemon' => $onePokemon["data"],
         ]);
     }
 }

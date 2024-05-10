@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Pokemon {{ pokemon.name }}{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <h1>Pokemon {{ pokemon.name }}</h1>
+        <section class="my-xl-9 my-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-xl-5 col-lg-6 col-12">
+                        <div class="mb-4">
+                            <table class="table">
+                                <tbody>
+                                <tr>
+                                    <td colspan="2"><b>Name</b> : {{ pokemon.name }}</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><b>ID</b> : {{ pokemon.id }}</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2"><b>Type(s)</b> :
+                                        {% for type in pokemon.types %}
+                                            {{ type }}
+                                        {% endfor %}</td>
+                                </tr>
+                                {% if pokemon.resistances is defined %}
+                                    <tr>
+                                        <td colspan="2"><b>Resistance(s)</b> :
+                                            {% for resistance in pokemon.resistances %}
+                                                {{ resistance.type }}
+                                            {% endfor %}
+                                        </td>
+                                    </tr>
+                                {% endif %}
+                                {% if pokemon.weaknesses is defined %}
+                                    <tr>
+                                        <td colspan="2"><b>Weaknesse(s)</b> :
+                                            {% for weaknesses in pokemon.weaknesses %}
+                                                {{ weaknesses.type }}
+                                            {% endfor %}
+                                        </td>
+                                    </tr>
+                                {% endif %}
+                                <tr>
+                                    <td style="width: 110px">
+                                        <b>Attack(s)</b> :
+                                    </td>
+                                    <td>
+                                        {% for attacks in pokemon.attacks %}
+                                            <div>
+                                                {{ attacks.name }} ({{ attacks.damage }})
+                                            </div>
+                                        {% endfor %}
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 offset-xl-1 col-lg-6 col-12">
+                        <div class="row g-4">
+                            <div class="col-lg-7 col-md-7 col-12">
+                                <div class="rounded-3 card-lift">
+                                    <img width="90%" src="{{ pokemon.images.large }}"/></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+{% endblock %}
