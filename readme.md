@@ -27,11 +27,11 @@ I am also familiar with relational databases such as MySQL, MariaDB, PostgreSQL,
 Clone Repository
 
 ```bash
-
+git clone -b main https://github.com/FernandoGobetti/app-ilia.git app-ilia
 ```
 
 ```bash
-
+cd app-ilia
 ```
 
 Builds, (re)creates, starts, and attaches to containers for a service.
